@@ -1,0 +1,20 @@
+{
+  "name": "node-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexey Ryzhkov",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
