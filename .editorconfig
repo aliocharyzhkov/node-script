@@ -15,3 +15,7 @@ trim_trailing_whitespace = false
 
 [Makefile]
 indent_style = tab
+
+[*.log]
+insert_final_newline = false
+trim_trailing_whitespace = false
