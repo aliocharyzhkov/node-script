@@ -2,9 +2,9 @@
   "name": "node-script",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "node index.js",
+    "start": "tsc && node build/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexey Ryzhkov",
@@ -14,7 +14,6 @@
     "node": ">=20.6.0"
   },
   "dependencies": {
-  },
-  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }
